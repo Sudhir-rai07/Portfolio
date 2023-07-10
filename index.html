@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <style>
+        @import url('./Portfolio.css');
+        @import url('./utility.css');
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="flex space-around a-center">
+            <div class="right-nav">
+                SKY's Portfolio
+            </div>
+            <div class="left-nav">
+                <ul class="flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="../13_Amazone_Clone/index.html" target="_blank">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex f-col a-center">
+        <section class="first-section flex space-around a-center wrap">
+            <div class="left-section t-center">
+                Hello, I'm <span>Sudhir</span>
+                <div> and I'm a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn pointer a-center j-center bold" id="btn1">Download CV</button>
+                    <button class="btn pointer a-center j-center bold " id="btn2">Hire me</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="./Images/dev img.png" alt="Dev-image-png">
+            </div>
+        </section>
+        <hr>
+
+        <section class="second-section">
+            <div class="s-r-s"></div>
+            <div id="my-skills">
+                <hr>
+                <h1>My Skills<span>.</span><span>.</span><span>.</span>
+                </h1>
+                <hr>
+            </div>
+            <div id="skill-container">
+                <div class="skills">
+                    <h3>HTML</h3>
+                </div>
+                <div class="skills">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skills">
+                    <h3>JAVASCRIPT</h3>
+                </div>
+                <div class="skills">
+                    <h3>JAVA</h3>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+
+        <section class="third-section flex space-around wrap">
+            <div class="about t-center">
+                <h2 class="m-auto" style="color: #4596f3" class="margin-top" class="t-center">ABOUT</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque repellendus ratione possimus, fuga
+                    nam laborum natus? Voluptatum molestiae error tenetur, quasi asperiores unde mollitia ut incidunt
+                    quia praesentium ratione fugit quod corrupti hic cupiditate inventore ea reprehenderit? Velit,
+                    accusamus eum.</p>
+            </div>
+
+            <div class="contact">
+                <fieldset class="flex f-col">
+                    <h2>Share your thought</h2>
+                    <input type="text" name="thought" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your email" name="email" required>
+                    <textarea name="your-idea" id="textarea" placeholder="Share your thoughts with us..." required></textarea>
+                    <button class="btn pointer bold">Send</button>
+                </fieldset>
+            </div>
+        </section>
+        <!-- <hr class="margin-top"> -->
+    </main>
+
+    <footer class="flex space-around j-center a-center">
+        <div>DEVELOPER<br>SUDHIR<br><small>&#169;All rights reserved</small></div>
+        <div>
+            <ul class="list-none">
+                <li><i class="fa fa-facebook"></i><a href="#">Facebook</a></li>
+                <li><i class="fa fa-twitter"></i><a href="#">Twitter</a></li>
+                <li><i class="fa fa-instagram"></i><a href="#">Instagram</a></li>
+                <li><i class="fa fa-youtube"></i><a href="#">YouTube</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="list-none">
+                <li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i>YouTube</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Video Editor', 'Web Developer'],
+            typeSpeed: 80,
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/d66f02fff4.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
