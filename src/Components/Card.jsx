@@ -7,10 +7,6 @@ const Card = ({ url, title, description, tags, liveLink, github ,theme}) => {
   return (
 
       <motion.div
-        drag
-        whileDrag={{ scale: 1.1 }}
-        dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-        dragElastic={0.2}
         className="grid col-span-12 sm:col-span-6"
       >
         <div className={`max-w-sm mt-8 overflow-hidden rounded shadow-sm ${theme ? "shadow-slate-100" : "shadow-lg"}`}>
