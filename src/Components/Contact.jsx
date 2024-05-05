@@ -91,7 +91,7 @@ const Contact = ({theme}) => {
               placeholder=""
               id="message"
               required
-              className="w-full px-2 py-3 mt-1 border border-gray-300/[0.6] outline-none rounded-lg text-sm focus:outline-none focus:shadow-[0px_0px_2px_1px_#fbb6ce] focus:border-[#f687b3]/[0.8] hover:shadow-[0px_0px_3px_1px_red] transition-all duration-200"
+              className="w-full px-2 py-3 mt-1 border border-gray-300/[0.6] outline-none rounded-lg text-sm focus:outline-none focus:shadow-[0px_0px_2px_1px_#fbb6ce] focus:border-[#f687b3]/[0.8] hover:shadow-[0px_0px_3px_1px_red] transition-all duration-200 text-black"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
