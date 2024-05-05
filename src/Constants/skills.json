@@ -1,0 +1,33 @@
+[
+    {
+        "url": "https://cdn.pixabay.com/photo/2018/05/08/21/28/html5-3384014_1280.png",
+        "name": "HTML"
+    },{
+        "url": "https://cdn-icons-png.flaticon.com/128/732/732190.png",
+        "name": "CSS"
+    },{
+        "url": "https://imgs.search.brave.com/W9CbFyxwjuZCstu49xt6tccC5kk1TtWTumoZ_-X-XRU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy90YWlsd2luZC1j/c3MtMi5zdmc.svg",
+        "name": "TailwindCSS"
+    },{
+        "url": "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png",
+        "name": "JavaScript"
+    },{
+        "url": "https://imgs.search.brave.com/qlFAtMUjOJ06EBhykDOXGUrmQ4UM2GdOmNiPAzXjS5w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy1kb3dubG9hZC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTYvMDkvUmVhY3Rf/bG9nb19sb2dvdHlw/ZV9lbWJsZW0tNzAw/eDYyNi5wbmc",
+        "name": "React"
+    },{
+        "url": "https://imgs.search.brave.com/Eigw7xYFQSqNFQhxxHde3hkdrP6Z2KHAInq2-yUxCO4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ4MzA5YmNlZjEw/MTRjMGI1ZTRhOWEu/cG5n",
+        "name": "Redux"
+    },{
+        "url": "https://imgs.search.brave.com/tq3hucM-dRx8cLV-5lQQ5Qy22SzDqFN1foHTH9A2ZL8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vbm9kZWpz/LWxvZ28tRkJFMTIy/RTM3Ny1zZWVrbG9n/by5jb20ucG5n",
+        "name": "NodeJS"
+    },{
+        "url": "https://imgs.search.brave.com/_3RJtvEav0smS06gm9fLMVUpdklb4nvrVzxVaytyan0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jYW1v/LmdpdGh1YnVzZXJj/b250ZW50LmNvbS9m/NjEyOGI2YTE3YzI4/ZWMwNTRiN2FiNjdl/NTk1ZDM5ZjUwM2Ew/ZTE3YjExNjkwMTE0/MWMwNWUxYTEwMTY5/ODVhLzY4NzQ3NDcw/NzMzYTJmMmY2OTJl/NjM2YzZmNzU2NDc1/NzAyZTYzNmY2ZDJm/N2E2NjU5MzY2YzRj/Mzc2NTQ2NjEyZDMz/MzAzMDMwNzgzMzMw/MzAzMDJlNzA2ZTY3",
+        "name": "Express"
+    },{
+        "url": "https://imgs.search.brave.com/BRVGPsfHMLde6VMaco5hC2VLpZF5KToHOth-6E3hqRY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy9tb25nb2RiLWlj/b24uc3Zn.svg",
+        "name": "MongoDB"
+    },{
+        "url": "https://imgs.search.brave.com/21yTT_m8HFrbU4qjmx9o1DGM9bX1MG-WpAAMji1tFso/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ3Zjk4MWNlZjEw/MTRjMGI1ZTQ4YmUu/cG5n",
+        "name": "Git"
+    }
+]

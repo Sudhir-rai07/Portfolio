@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Note App",
+        "url": "https://res.cloudinary.com/dqvrczuud/image/upload/v1714062795/qsjxh3ccntdgvljxpvxd.png",
+        "description": "This is a Note App made with MERN stack. This web app helps you to write your thoughts and save them in a secured place.",
+        "tags": [
+            "MERN",
+            "Note App"
+        ],
+        "liveLink": "#",
+        "gitHub": "https://github.com/Sudhir-rai07/Note_App_Frontend"
+    },
+    {
+        "title": "Admin Dashboard",
+        "url": "https://res.cloudinary.com/dqvrczuud/image/upload/v1714062796/rj0edfn4tttvjqfe9abm.png",
+        "description": "Static Admin dashboard made with reactjs. Technologies like ReactTable, Chartjs are used in this app",
+        "tags": [
+            "MERN",
+            "Admin Dashboard"
+        ],
+        "liveLink": "https://admin-dashboard-neon-two.vercel.app/",
+        "gitHub": "https://github.com/Sudhir-rai07/AdminDashboard"
+    },
+    {
+        "title": "Animated Web Page",
+        "url": "https://res.cloudinary.com/dqvrczuud/image/upload/v1714062796/nhytzpbaeiaicplat79v.png",
+        "description": "This is an Admin Dashboard. This is only for desktop, not responsive for mobile or small screens",
+        "tags": [
+            "Landing page",
+            "Animated"
+        ],
+        "liveLink": "https://animated-web-page-iota.vercel.app/",
+        "gitHub": "https://github.com/Sudhir-rai07/AnimatedWebPage"
+    }
+]
