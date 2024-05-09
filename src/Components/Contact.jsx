@@ -7,6 +7,7 @@ const Contact = ({theme}) => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const templateParams = {
     from_name: username,
@@ -16,6 +17,7 @@ const Contact = ({theme}) => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+    loading(true)
     emailjs
       .send(
         "service_73rb818",
@@ -28,9 +30,11 @@ const Contact = ({theme}) => {
         setUsername('')
         setEmail('')
         setMessage('')
+        setLoading(false)
         toast.success("Message sent successfully")
       })
-      .catch((err) => console.log("Failed...", err));
+      .catch((err) => console.log("Failed...", err))
+      .finally(()=> setLoading(false))
   };
 
   return (

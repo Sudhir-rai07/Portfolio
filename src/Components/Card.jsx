@@ -20,7 +20,7 @@ const Card = ({ url, title, description, tags, liveLink, github ,theme}) => {
               tags.map((item, idx) => (
                 <span
                   key={idx}
-                  className="inline-block px-3 py-1 mt-2 mr-2 text-sm font-semibold text-blue-500 bg-gray-200 rounded-full"
+                  className="inline-block px-3 py-1 mt-2 mr-2 text-sm font-semibold text-blue-600 bg-gray-300 rounded-full"
                 >
                   #{item}
                 </span>
@@ -31,14 +31,14 @@ const Card = ({ url, title, description, tags, liveLink, github ,theme}) => {
             <a
               href={liveLink}
               target="_blank"
-              className="inline-block px-4 py-2 mb-2 mr-2 text-sm font-semibold tracking-widest text-gray-700 transition-all duration-200 bg-green-300 rounded-full cursor-pointer animate-pulse hover:animate-none hover:bg-black hover:text-red-600"
+              className="inline-block px-4 py-2 mb-2 mr-2 text-sm font-semibold tracking-widest text-gray-800 transition-all duration-200 bg-green-400 rounded-full cursor-pointer hover:bg-black hover:text-red-600"
             >
               Live
             </a>
             <a
               href={github}
               target="_blank"
-              className="inline-block px-4 py-2 mb-2 mr-2 text-sm font-semibold tracking-widest text-gray-700 transition-all duration-200 bg-red-200 rounded-full cursor-pointer animate-pulse hover:animate-none hover:bg-red-600 hover:text-black"
+              className="inline-block px-4 py-2 mb-2 mr-2 text-sm font-semibold tracking-widest text-black transition-all duration-200 bg-red-400 rounded-full cursor-pointer hover:bg-red-600 hover:text-black"
             >
               Github
             </a>

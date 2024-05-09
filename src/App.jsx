@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className={`pt-5 sm:mt-0 relative flex flex-col items-center w-full h-full ${isDark? "bg-[#000510] text-gray-200" : "bg-white text-black"} transition-colors duration-200`}>
     <div className="fixed z-40 top-2 right-4">
-      <button onClick={() => setIsDark(prev => !prev)} className="text-3xl">{isDark ? <MdLightMode className="text-white"/> : <MdDarkMode />}</button>
+      <button name="switch-theme" onClick={() => setIsDark(prev => !prev)} className="text-3xl">{isDark ? <MdLightMode className="text-white"/> : <MdDarkMode />}</button>
     </div>
       <div className="flex w-full h-full">
         <div className="hidden w-72 h-1/2 sm:block">
@@ -42,9 +42,9 @@ const App = () => {
           <div className="mt-8 overflow-hidden sm:w-96">
             <p className="text-[18px]">
               Hi there I am{" "}
-              <span className="tracking-wider text-red-600 font-Fira Sans Condensed">Sudhir</span>
+              <span className="tracking-wider text-red-500 font-Fira Sans Condensed">Sudhir</span>
               <span className="br"></span> I am a full stack{" "}
-              <span className="tracking-wider text-red-600">Web Developer</span>
+              <span className="tracking-wider text-red-500">Web Developer</span>
               . <br />
               <span className="text-xl font-semibold tracking-wider text-green-600 font-Briem-Hand">
                 Rendering dreams on the Web.
