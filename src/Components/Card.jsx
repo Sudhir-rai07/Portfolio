@@ -9,7 +9,7 @@ const Card = ({ url, title, description, tags, liveLink, github ,theme}) => {
       <motion.div
         className="grid col-span-12 sm:col-span-6"
       >
-        <div className={`max-w-sm mt-8 overflow-hidden rounded shadow-sm ${theme ? "shadow-slate-100" : "shadow-lg"}`}>
+        <div className={`max-w-sm mt-8 overflow-hidden rounded shadow-sm ${theme ? "shadow-slate-100" : "shadow-slate-700 shadow-lg"}`}>
           <img className="w-full" src={url} alt={title} />
           <div className="px-6 py-4">
             <div className="mb-2 text-xl font-bold">{title}</div>

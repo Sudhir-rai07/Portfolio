@@ -22,6 +22,17 @@
         "gitHub": "https://github.com/Sudhir-rai07/AdminDashboard"
     },
     {
+        "title": "Connect Plus - social media app",
+        "url": "https://res.cloudinary.com/dqvrczuud/image/upload/v1718268114/Screenshot_2024-06-13_141112_iy3zhj.png",
+        "description": "ConnectPlus is a cutting-edge social media platform built using the MERN stack (MongoDB, Express.js, React, and Node.js), offering a seamless and engaging user experience. Designed with security as a top priority, ConnectPlus ensures your personal data and interactions are safeguarded through robust encryption and advanced security protocols.",
+        "tags": [
+            "MERN",
+            "Social media app"
+        ],
+        "liveLink": "https://x-clone-xast.onrender.com",
+        "gitHub": "https://github.com/Sudhir-rai07/x-clone"
+    },
+    {
         "title": "Animated Web Page",
         "url": "https://res.cloudinary.com/dqvrczuud/image/upload/v1714062796/nhytzpbaeiaicplat79v.png",
         "description": "This is an Admin Dashboard. This is only for desktop, not responsive for mobile or small screens",
