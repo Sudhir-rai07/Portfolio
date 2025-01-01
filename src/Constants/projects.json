@@ -1,4 +1,27 @@
 [
+    
+    {
+        "title": "Connect Plus - social media app",
+        "url": "https://res.cloudinary.com/dqvrczuud/image/upload/v1718268114/Screenshot_2024-06-13_141112_iy3zhj.png",
+        "description": "ConnectPlus is a secure and user-friendly social media platform built with the MERN stack (MongoDB, Express.js, React, and Node.js). It prioritizes your data's safety with robust encryption and advanced security measures.",
+        "tags": [
+            "MERN",
+            "Social media app"
+        ],
+        "liveLink": "https://x-clone-xast.onrender.com",
+        "gitHub": "https://github.com/Sudhir-rai07/x-clone"
+    },
+    {
+        "title": "ToDo CLI (Golang)",
+        "url": "https://res.cloudinary.com/dqvrczuud/image/upload/v1735747668/Screenshot_2025-01-01_213711_m8irbc.png",
+        "description": "A lightweight command-line interface (CLI) application to manage your tasks. Add, complete, delete, or list your ToDos with simple commands",
+        "tags": [
+            "Golang",
+            "CLI"
+        ],
+        "liveLink": "https://github.com/Sudhir-rai07/todo-cli.git",
+        "gitHub": "https://github.com/Sudhir-rai07/AnimatedWebPage.git"
+    },
     {
         "title": "School Website Frontend",
         "url": "school-website.jpg",
@@ -20,27 +43,5 @@
         ],
         "liveLink": "https://admin-dashboard-neon-two.vercel.app/",
         "gitHub": "https://github.com/Sudhir-rai07/AdminDashboard"
-    },
-    {
-        "title": "Connect Plus - social media app",
-        "url": "https://res.cloudinary.com/dqvrczuud/image/upload/v1718268114/Screenshot_2024-06-13_141112_iy3zhj.png",
-        "description": "ConnectPlus is a cutting-edge social media platform built using the MERN stack (MongoDB, Express.js, React, and Node.js), offering a seamless and engaging user experience. Designed with security as a top priority, ConnectPlus ensures your personal data and interactions are safeguarded through robust encryption and advanced security protocols.",
-        "tags": [
-            "MERN",
-            "Social media app"
-        ],
-        "liveLink": "https://x-clone-xast.onrender.com",
-        "gitHub": "https://github.com/Sudhir-rai07/x-clone"
-    },
-    {
-        "title": "Animated Web Page",
-        "url": "https://res.cloudinary.com/dqvrczuud/image/upload/v1714062796/nhytzpbaeiaicplat79v.png",
-        "description": "Interactive UI made with core html, css and js which can be used in marketing of a product or Landing page for any organization.",
-        "tags": [
-            "Landing page",
-            "Animated"
-        ],
-        "liveLink": "https://animated-web-page-iota.vercel.app/",
-        "gitHub": "https://github.com/Sudhir-rai07/AnimatedWebPage"
     }
 ]

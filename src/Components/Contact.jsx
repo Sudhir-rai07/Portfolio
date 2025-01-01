@@ -1,7 +1,8 @@
-import React, { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { useState } from "react";
+import PropTypes from "prop-types";
 
 const Contact = ({theme}) => {
   const [username, setUsername] = useState("");
@@ -114,5 +115,10 @@ const Contact = ({theme}) => {
     </motion.div>
   );
 };
+
+
+Contact.PropTypes = {
+    theme: PropTypes.string.isRequired
+}
 
 export default Contact;

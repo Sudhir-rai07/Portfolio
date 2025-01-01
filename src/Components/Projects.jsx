@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./Card";
 import data from "../Constants/projects.json";
 
@@ -10,7 +9,7 @@ const Projects = ({theme}) => {
           Projects
         </h2>
       </div>
-      <div className={`grid grid-cols-12 gap-4 mt-20 place-items-center justify-evenly ${theme ? "text-white": "text-black"}`}>
+      <div className={`grid grid-cols-1 justify-items-center sm:grid-cols-1 lg:grid-cols-2 place-content-center mt-20 ${theme ? "text-white": "text-black"}`}>
         {data &&
           data.map((item, idx) => (
             <Card

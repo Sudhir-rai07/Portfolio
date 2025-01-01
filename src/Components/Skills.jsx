@@ -1,8 +1,6 @@
-import React from "react";
 import SkillCard from "./SkillCard";
 import skills from "../Constants/skills.json";
 import languages from "../Constants/language.json";
-import Card from "./Card";
 
 const Skills = () => {
   return (

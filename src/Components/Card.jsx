@@ -1,13 +1,11 @@
-import React from "react";
 import { motion } from "framer-motion";
-import {Tilt} from 'react-tilt'
 
 const Card = ({ url, title, description, tags, liveLink, github ,theme}) => {
   
   return (
 
       <motion.div
-        className="grid col-span-12 sm:col-span-6"
+        className=""
       >
         <div className={`max-w-sm mt-8 overflow-hidden rounded shadow-sm ${theme ? "shadow-slate-100" : "shadow-slate-700 shadow-lg"}`}>
           <img className="w-full" src={url} alt={title} />
