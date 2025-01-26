@@ -41,7 +41,7 @@ const Contact = ({theme}) => {
   return (
     <motion.div
       id="contact"
-      className={`relative flex flex-col items-center justify-center w-full h-full mt-8 mb-8 text-black  transition-colors duration-200 ${theme? "bg-[#000510] text-white" : "bg-white text-black"}`}
+      className={`relative flex flex-col items-center justify-center w-full h-full mt-8 mb-8   transition-colors duration-200 ${theme? "bg-[#000510] text-white" : " "}`}
     >
       <div className="mb-6 text-3xl font-semibold">
         <h2>
@@ -64,7 +64,7 @@ const Contact = ({theme}) => {
               placeholder=""
               id="username"
               required
-              className="w-full px-2 py-3 mt-1 border border-gray-200/[0.9] outline-none rounded-lg text-sm focus:outline-none focus:shadow-[0px_0px_2px_1px_#fbb6ce] focus:border-[#f687b3] hover:shadow-[0px_0px_3px_1px_red] transition-all duration-200 text-black"
+              className="w-full px-2 py-3 mt-1 border border-gray-200/[0.9] outline-none rounded-lg text-sm focus:outline-none focus:shadow-[0px_0px_2px_1px_#fbb6ce] focus:border-[#f687b3] hover:shadow-[0px_0px_3px_1px_red] transition-all duration-200 "
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />
@@ -79,7 +79,7 @@ const Contact = ({theme}) => {
               placeholder=""
               id="email"
               required
-              className="w-full text-black px-2 py-3 mt-1 border border-gray-200/[0.9] outline-none rounded-lg text-sm focus:outline-none focus:shadow-[0px_0px_2px_1px_#fbb6ce] focus:border-[#f687b3] hover:shadow-[0px_0px_3px_1px_red] transition-all duration-200"
+              className="w-full  px-2 py-3 mt-1 border border-gray-200/[0.9] outline-none rounded-lg text-sm focus:outline-none focus:shadow-[0px_0px_2px_1px_#fbb6ce] focus:border-[#f687b3] hover:shadow-[0px_0px_3px_1px_red] transition-all duration-200"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -96,20 +96,21 @@ const Contact = ({theme}) => {
               placeholder=""
               id="message"
               required
-              className="w-full px-2 py-3 mt-1 border border-gray-300/[0.6] outline-none rounded-lg text-sm focus:outline-none focus:shadow-[0px_0px_2px_1px_#fbb6ce] focus:border-[#f687b3]/[0.8] hover:shadow-[0px_0px_3px_1px_red] transition-all duration-200 text-black"
+              className="w-full px-2 py-3 mt-1 border border-gray-300/[0.6] outline-none rounded-lg text-sm focus:outline-none focus:shadow-[0px_0px_2px_1px_#fbb6ce] focus:border-[#f687b3]/[0.8] hover:shadow-[0px_0px_3px_1px_red] transition-all duration-200 "
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
 
-          <div className="flex flex-col items-center justify-center w-[90%] ">
-            <button
-              type="submit"
-              className="w-4/5 px-4 py-3 mt-10 text-red-500 bg-black border-2 border-gray-200 rounded-full"
-            >
-              Send message
+
+          <button className="flex flex-col items-center justify-center w-[90%] mt-6" type="submit">
+              <div href="#"
+                className="px-5 py-2.5 relative group overflow-hidden font-medium bg-gray-200 text-black w-1/2 rounded-full"
+              >
+                <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-black group-hover:h-full opacity-90"></span>
+                <span className="relative group-hover:text-red-600 "><a href="#contact">Send</a></span>
+              </div>
             </button>
-          </div>
         </form>
       </div>
     </motion.div>

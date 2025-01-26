@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div className="relative w-4/5 mb-8 ">
       <div className="absolute left-0 text-2xl font-semibold">
-        My <span className="text-red-500">Skills</span>
+       <span className="text-orange-700">Skills</span>
       </div>
 
       <div className="relative flex flex-wrap justify-center w-full mt-10">

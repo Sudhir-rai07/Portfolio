@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 
-const Card = ({ url, title, description, tags, liveLink, github ,theme}) => {
+const Card = ({  title, description, tags, liveLink, github }) => {
   
   return (
 
       <motion.div
         className=""
       >
-        <div className={`max-w-sm mt-8 overflow-hidden rounded shadow-sm ${theme ? "shadow-slate-100" : "shadow-slate-700 shadow-lg"}`}>
-          <img className="w-full" src={url} alt={title} />
+        <div className={`max-w-sm mt-8 overflow-hidden border-green-200 bg-gradient-to-r from-green-100 via-green-50 to-green-100 text-green-800 shadow-sm border rounded-md`}>
+          {/* <img className="w-full" src={url} alt={title} /> */}
           <div className="px-6 py-4">
             <div className="mb-2 text-xl font-bold">{title}</div>
             <p className="text-base text-gray-500">{description}</p>

@@ -5,7 +5,7 @@ const Projects = ({theme}) => {
   return (
     <div className="relative w-4/5 mb-8">
       <div className="absolute top-0 left-0">
-        <h2 className="text-3xl font-semibold tracking-wider text-red-500">
+        <h2 className="text-3xl font-semibold tracking-wider text-orange-700">
           Projects
         </h2>
       </div>

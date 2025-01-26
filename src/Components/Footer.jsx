@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
               <div className='flex items-center hover:underline '>
                 <span className='mr-2'><RiTwitterXLine /></span>
-                <span><a href='https://twitter.com/dev_sudhir_07' target='_blank'>Twitter</a></span>
+                <span><a href='https://twitter.com/sudhirrai0' target='_blank'>Twitter</a></span>
             </div> 
             <div className='flex items-center px-3 py-1 hover:underline '>
                 <span className='mr-2'><RiInstagramLine /></span>

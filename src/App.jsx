@@ -7,11 +7,12 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import { MdLightMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
+import Services from "./Components/Services";
 
 const App = () => {
   const [isDark, setIsDark] = useState(true)
   return (
-    <div className={`pt-5 sm:mt-0 relative flex flex-col items-center w-full h-full ${isDark? "bg-[#000510] text-gray-200" : "bg-white text-black"} transition-colors duration-200`}>
+    <div className={`pt-5 sm:mt-0 relative flex  from-[#000000] to-[#130F40] flex-col items-center w-full h-full ${isDark? "bg-[#000510] text-gray-200" : "bg-gradient-to-r text-white"} transition-colors duration-200`}>
     <div className="fixed z-40 top-2 right-4">
       <button name="switch-theme" onClick={() => setIsDark(prev => !prev)} className="text-3xl">{isDark ? <MdLightMode className="text-white"/> : <MdDarkMode />}</button>
     </div>
@@ -53,6 +54,11 @@ const App = () => {
               Specializing in creating responsive and dynamic web solutions that
               delight users and drive business success.
             </p>
+
+            <ul className="mt-6 text-lg">
+              <li className="">Intern <span className="font-semibold">@ 5ireChain</span> as Backend BlockChain Developer</li>
+              <li className="text-sm text-gray-500">January 2025 - present</li>
+            </ul>
           </div>
 
           <div className="mt-8">
@@ -82,6 +88,8 @@ const App = () => {
       <hr className="h-[3px] rounded-lg sm:mt-0 mt-10 sm:w-4/5  w-[90%] border-none   bg-gray-600" />
       <Projects theme={isDark}/>
       <hr className="h-[3px] rounded-lg sm:mt-0 mt-10 sm:w-4/5  w-[90%] border-none   bg-gray-600" />
+      <Services />
+      {/* <hr className="h-[3px] rounded-lg sm:mt-0 mt-10 sm:w-4/5  w-[90%] border-none   bg-gray-600" /> */}
       <Contact theme={isDark}/>
       <Footer />
     </div>
