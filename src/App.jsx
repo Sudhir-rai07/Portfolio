@@ -56,7 +56,7 @@ const App = () => {
             </p>
 
             <ul className="mt-6 text-lg">
-              <li className="">Intern <span className="font-semibold">@ 5ireChain</span> as Backend BlockChain Developer</li>
+              <li className="">Intern <span className="font-semibold">@ 5ireChain</span> as Fullstack BlockChain Developer</li>
               <li className="text-sm text-gray-500">January 2025 - present</li>
             </ul>
           </div>
